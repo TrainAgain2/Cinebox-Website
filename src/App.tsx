@@ -16,8 +16,8 @@ const highlights = [
   },
   {
     number: '03',
-    title: 'Android 32 e 64 bits',
-    text: 'Preparado para as variantes Android disponíveis na base Kodi 22 Piers.',
+    title: 'APK universal Android',
+    text: 'Um só download com ARM64 e ARM32, pronto para a base Kodi 22 Piers.',
   },
 ]
 
@@ -90,7 +90,7 @@ function App() {
             O Cinebox 22 parte da nova geração <strong>Kodi Piers</strong>, mantendo a identidade visual Cinebox em uma base Android atual.
           </p>
           <p>
-            A página reúne exclusivamente as informações da versão 22 e as suas variantes para Android.
+            A página reúne exclusivamente as informações da versão 22 e da sua APK universal para Android.
           </p>
         </div>
         <aside className="release-card">
@@ -98,7 +98,7 @@ function App() {
           <div>
             <small>VERSÃO</small>
             <strong>Cinebox 22</strong>
-            <span>Kodi 22 Piers RC1 · Android 32 e 64 bits</span>
+            <span>Kodi 22 Piers RC1 · APK universal: ARM64 + ARM32</span>
           </div>
         </aside>
       </section>

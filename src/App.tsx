@@ -3,6 +3,8 @@ import icon from './assets/cinebox-icon.png'
 import logo from './assets/cinebox-logo.png'
 import splash from './assets/cinebox-splash.jpg'
 
+const releaseUrl = 'https://github.com/TrainAgain2/Cinebox/releases/tag/cinebox-22-piers-rc1'
+
 const highlights = [
   {
     number: '01',
@@ -22,6 +24,14 @@ const highlights = [
 ]
 
 function App() {
+  const openDownload = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!/Android/i.test(navigator.userAgent)) return
+
+    event.preventDefault()
+    const chromeIntent = `intent://github.com/TrainAgain2/Cinebox/releases/tag/cinebox-22-piers-rc1#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(releaseUrl)};end`
+    window.location.href = chromeIntent
+  }
+
   return (
     <main>
       <section className="hero" style={{ '--hero-image': `url(${splash})` } as React.CSSProperties}>
@@ -44,7 +54,7 @@ function App() {
             Uma experiência visual personalizada para descobrir filmes, acompanhar séries e voltar exatamente ao ponto onde parou.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="https://github.com/TrainAgain2/Cinebox/releases/tag/cinebox-22-piers-rc1" target="_blank" rel="noreferrer">Baixar Cinebox 22 no GitHub</a>
+            <a className="button primary" href={releaseUrl} onClick={openDownload}>Baixar Cinebox 22 no GitHub</a>
             <a className="button ghost" href="#atualizacao">Ver Cinebox 22</a>
           </div>
           <div className="hero-meta">

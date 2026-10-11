@@ -44,7 +44,7 @@ function App() {
             Uma experiência visual personalizada para descobrir filmes, acompanhar séries e voltar exatamente ao ponto onde parou.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="https://github.com/TrainAgain2/Cinebox/releases" target="_blank" rel="noreferrer">Ver releases no GitHub</a>
+            <a className="button primary" href="https://github.com/TrainAgain2/Cinebox/releases/tag/cinebox-22-piers-rc1" target="_blank" rel="noreferrer">Baixar Cinebox 22 no GitHub</a>
             <a className="button ghost" href="#atualizacao">Ver Cinebox 22</a>
           </div>
           <div className="hero-meta">

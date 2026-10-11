@@ -1,13 +1,17 @@
-# Site Cinebox
+# Cinebox 22
 
-Página pública de apresentação do Cinebox.
+Página pública de apresentação do **Cinebox 22**.
 
-## Conteúdo
+## Informações da versão
 
-- identidade visual baseada nos backgrounds e logótipos já usados no Cinebox p23;
-- recursos gerais do Cinebox;
-- nota da atualização 22.0-ph9: trailers do TMDbHelper via NewPipe;
-- nenhuma APK, backup, token, chave, hash privado ou dado de perfil.
+- **Base:** Kodi 22 Piers RC1;
+- **Plataforma:** Android;
+- **Variantes:** 32 bits e 64 bits;
+- **Identidade:** interface visual Cinebox para filmes, séries, episódios e trailers.
+
+## Conteúdo do site
+
+O site apresenta apenas informações gerais do Cinebox 22 e a sua identidade visual.
 
 ## Execução local
 
@@ -15,7 +19,3 @@ Página pública de apresentação do Cinebox.
 pnpm install
 pnpm dev
 ```
-
-## Publicação no GitHub
-
-O repositório deve conter apenas este site estático. Para disponibilizá-lo como página pública, configure o GitHub Pages com deploy a partir de GitHub Actions ou de uma branch de publicação.

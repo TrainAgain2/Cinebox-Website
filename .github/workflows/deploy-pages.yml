@@ -1,8 +1,6 @@
 name: Deploy Cinebox website
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

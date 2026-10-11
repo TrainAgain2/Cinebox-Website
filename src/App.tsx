@@ -16,8 +16,8 @@ const highlights = [
   },
   {
     number: '03',
-    title: 'Atualização em linha',
-    text: 'O mesmo package e certificado permitem atualizar sem reinstalar o app.',
+    title: 'Android 32 e 64 bits',
+    text: 'Preparado para as variantes Android disponíveis na base Kodi 22 Piers.',
   },
 ]
 
@@ -32,7 +32,7 @@ function App() {
           </a>
           <nav aria-label="Navegação principal">
             <a href="#recursos">Recursos</a>
-            <a href="#atualizacao">Atualização</a>
+            <a href="#atualizacao">Cinebox 22</a>
             <a href="#sobre">Sobre</a>
           </nav>
         </header>
@@ -45,11 +45,11 @@ function App() {
           </p>
           <div className="hero-actions">
             <a className="button primary" href="#recursos">Conhecer o Cinebox</a>
-            <a className="button ghost" href="#atualizacao">Ver atualização atual</a>
+            <a className="button ghost" href="#atualizacao">Ver Cinebox 22</a>
           </div>
           <div className="hero-meta">
-            <span><b>22</b> Base Kodi Piers</span>
-            <span><b>●</b> Cinebox 22.0-ph9</span>
+            <span><b>22</b> Kodi Piers RC1</span>
+            <span><b>●</b> Cinebox 22</span>
           </div>
         </div>
       </section>
@@ -84,21 +84,21 @@ function App() {
 
       <section className="update shell" id="atualizacao">
         <div className="update-copy">
-          <p className="eyebrow dark"><span /> ATUALIZAÇÃO ATUAL</p>
-          <h2>NewPipe integrado<br />ao TMDbHelper.</h2>
+          <p className="eyebrow dark"><span /> CINEBOX 22</p>
+          <h2>Base Kodi 22<br />Piers RC1.</h2>
           <p>
-            A versão <strong>22.0-ph9</strong> ajusta a rota dos trailers para usar o NewPipe já incluído, sem solicitar o add-on YouTube.
+            O Cinebox 22 parte da nova geração <strong>Kodi Piers</strong>, mantendo a identidade visual Cinebox em uma base Android atual.
           </p>
           <p>
-            A atualização é feita uma vez, preservando configurações e o conteúdo já existente no perfil.
+            A página reúne exclusivamente as informações da versão 22 e as suas variantes para Android.
           </p>
         </div>
         <aside className="release-card">
           <img src={icon} alt="Ícone Cinebox" />
           <div>
-            <small>VERSÃO ATUAL</small>
-            <strong>22.0-ph9</strong>
-            <span>Assinatura Cinebox · Atualização em linha</span>
+            <small>VERSÃO</small>
+            <strong>Cinebox 22</strong>
+            <span>Kodi 22 Piers RC1 · Android 32 e 64 bits</span>
           </div>
         </aside>
       </section>
